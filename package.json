@@ -1,18 +1,13 @@
 {
-  "name": "test",
+  "name": "server",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "start": "vercel start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "type": "module",
   "dependencies": {
-    "express": "^4.18.2",
-    "node-fetch": "^3.0.0"
+    "node-fetch": "^2.6.1"
   }
 }
-
